@@ -1880,7 +1880,7 @@ button:focus {
 }
 
 .glyphicon {
-	color: #46166b;
+	color: #ffffff;
 	top: 60px;
 }
 
@@ -1894,6 +1894,7 @@ button:focus {
 @media all and (min-width: 992px) {
 	.glyphicon {
 		top: 65px;
+		color: rgb(255, 255, 255);
 	}
 }
 
