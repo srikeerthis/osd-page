@@ -17,6 +17,8 @@
 	<link href="assets/css/slick.css" rel="stylesheet">
 	<!-- Theme color -->
 	<link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 	<!-- Main Style -->
 	<link href="style.css" rel="stylesheet">
@@ -35,12 +37,15 @@
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		<![endif]-->
+	<style>
+
+	</style>
 </head>
 
 <body>
 
-	<!-- Start Header -->style
+	<!-- Start Header -->
 	<header id="mu-hero" class="" role="banner">
 		<!-- Start menu  -->
 		<nav class="navbar navbar-fixed-top navbar-default mu-navbar">
@@ -152,30 +157,50 @@
 		<!-- End About -->
 
 		<!-- Start Video -->
-		<section id="mu-video">
-			<div class="mu-video-overlay">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="mu-video-area">
-								<h2>Interested about the venue?</h2>
-								<a class="mu-video-play-btn" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
+		<section class="mu-gallery" style="margin: 5rem; ">
+			<div class="container" style="background-color: #ffffff27;">
+				<div class="mu-title-area">
+					<h2 class="mu-title" style="margin-bottom: 5rem">Gallery</h2>
+				</div>
+					<div class="row multi-slider mt-5" style="margin-top: 5rem;">
+						<div class="col-md-12 col-lg-10 col-lg-offset-1">
+							<div class="carousel carousel-showmanymoveone slide multi-item-carousel" id="theCarousel">
+								<div class="carousel-inner">
+									<div class="item active">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd1.jpg" class="img-responsive"></a></div>
+									</div>
+									<div class="item">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd2.jpg" width="300" height="300px" class="img-responsive"></a></div>
+									</div>
+									<div class="item">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd3.jpg" class="img-responsive"></a></div>
+									</div>
+									<div class="item">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd4.jpg" class="img-responsive"></a></div>
+									</div>
+									<div class="item">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd5.jpg" class="img-responsive"></a></div>
+									</div>
+									<div class="item">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd6.jpg" class="img-responsive"></a></div>
+									</div>
+									<div class="item">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd7.jpg" class="img-responsive"></a></div>
+									</div>
+									<div class="item">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd8.jpg" class="img-responsive"></a></div>
+									</div>
+									<div class="item">
+										<div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="./assets/images/osd9.jpg" class="img-responsive"></a></div>
+									</div>
+								</div>
+								<a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+								<a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<!-- Start Video content -->
-			<div class="mu-video-content">
-				<div class="mu-video-iframe-area">
-					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/3TJuYm28CZw" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-			<!-- End Video content -->
-
+				
 		</section>
 		<!-- End Video -->
 
